@@ -1,11 +1,11 @@
 // Printing in Dart
 main() {
   print('Hello World'); // String
-  print("'You Name'");
-  print('"You Name"');
-  print("\"You Name\"");
-  print('I\'m Usama Sarwar.');
-  print('\$100');
+  print("'You Name'"); // 'You Name'
+  print('"You Name"'); // "You Name"
+  print("\"You Name\""); // "You Name"
+  print('I\'m Usama Sarwar.'); // I'm Usama Sarwar.
+  print('\$100'); // $100
   print(25); // Integer
   print(25.5); // Double
   print(true); // Boolean
