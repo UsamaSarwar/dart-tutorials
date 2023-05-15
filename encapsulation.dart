@@ -8,7 +8,7 @@ class BankAccount {
   }
 
   void deposit(double amount) {
-    _balance += amount; // accessing private variable
+    _balance += amount; // accessing private variable i.e. _balance = _balance + amount
   }
 
   void withdraw(double amount) {

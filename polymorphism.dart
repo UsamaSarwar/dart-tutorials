@@ -33,16 +33,16 @@ void main() {
   Animal animal = Animal("generic animal");
   animal.makeSound(); // The generic animal makes a sound
 
-  Dog dog = Dog("Fido");
-  dog.makeSound(); // The Fido barks
+  Dog dog = Dog("Doggy");
+  dog.makeSound(); // The Doggy barks
 
-  Cat cat = Cat("Whiskers");
-  cat.makeSound(); // The Whiskers meows
+  Cat cat = Cat("Tom");
+  cat.makeSound(); // The Tom meows
 
   // polymorphism - animal variable can hold any subclass of Animal
   animal = Dog("Buddy");
   animal.makeSound(); // The Buddy barks
 
-  animal = Cat("Mittens");
-  animal.makeSound(); // The Mittens meows
+  animal = Cat("Cato");
+  animal.makeSound(); // The Cato meows
 }

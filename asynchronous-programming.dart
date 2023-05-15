@@ -29,9 +29,10 @@ void main(List<String> args) {
     return result;
   }
 
-  print("Main program: Started");
+  print("Main program: Started Activity 1");
   checkLoginCredentials().then((result) {
     print(result);
     print('Welcome to System');
   });
+  print("Main program: Started Activity 2");
 }
