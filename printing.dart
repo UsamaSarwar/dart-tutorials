@@ -8,6 +8,11 @@ main() {
   print("\"You Name\""); //? "You Name"
   print('I\'m Usama Sarwar.'); //? I'm Usama Sarwar.
   print('\$100'); //? $100
+  int num=0;
+  print(num); //? 0
+  print("Value of Num is $num"); //? Value of Num is 0
+  print("Value of Num is ${num}"); //? Value of Num is 0
+  print("Value of Num is" + num.toString()); //? Value of Num is 0
 
   /// Integer
   print(25); //? 25
@@ -22,11 +27,11 @@ main() {
   print(["Usama", "Sarwar", 27, true]); //? ["Usama", "Sarwar", 27, true]
 
   /// Map
-  print({"firstName": "Usama", "lastName": "Sarwar"}); //? {"firstName": "Usama", "lastName": "Sarwar"}
+  print({
+    "firstName": "Usama", 
+    "lastName": "Sarwar"
+    }); //? {"firstName": "Usama", "lastName": "Sarwar"}
   
   /// Set
   print({"Pakistan", "India", "China"}); //? {"Pakistan", "India", "China"}
 }
-
-/// TODO: Printing Assignment
-/// Output the following text in the console: "You Name"
