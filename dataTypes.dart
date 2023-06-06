@@ -1,35 +1,41 @@
 void main() {
-  // Primitive Data Types
+  /// Primitive Data Types
   String _string = "Usama Sarwar";
-  print(_string);
+  print(_string); //? Usama Sarwar
+
   int _integer = 25;
-  print(_integer);
+  print(_integer); //? 25
+
   double _double = 5.8;
-  print(_double);
+  print(_double); //? 5.8
+  
   bool _bool = true;
-  print(_bool);
+  print(_bool); //? true
 
-  // Non-Primitive Data Types
+  /// Non-Primitive Data Types
   List<String> list_string = ["Usama", "Sarwar"]; // List of Strings
-  print(list_string); // [Usama, Sarwar]
-  print(list_string[0]); // Usama
-  print(list_string[1]); // Sarwar
-  List list = ["Usama", "Sarwar", 25, true, 23.3, 25]; // List of dynamic data types
-  print(list); // [Usama, Sarwar, 25, true, 23.3, 25]
-  Map<String, String> _map = {"firstName": "Usama", "lastName": "Sarwar"};
-  print(_map); // {firstName: Usama, lastName: Sarwar}
-  print(_map["firstName"]); // Usama
-  print(_map["lastName"]); // Sarwar
-  Set<String> _set = {"Pakistan", "India", "China"}; // Set of Strings (No Duplicates)
-  print(_set); // {Pakistan, India, China}
+  print(list_string); //? [Usama, Sarwar]
+  print(list_string[0]); //? Usama
+  print(list_string[1]); //? Sarwar
 
-  // Dynamic Data Type
+  List list = ["Usama", "Sarwar", 25, true, 23.3, 25]; // List of dynamic data types
+  print(list); //? [Usama, Sarwar, 25, true, 23.3, 25]
+
+  Map<String, String> _map = {"firstName": "Usama", "lastName": "Sarwar"};
+  print(_map); //? {firstName: Usama, lastName: Sarwar}
+  print(_map["firstName"]); //? Usama
+  print(_map["lastName"]); //? Sarwar
+
+  Set<String> _set = {"Pakistan", "India", "China"}; // Set of Strings (No Duplicates)
+  print(_set); //? {Pakistan, India, China}
+
+  /// Dynamic Data Type
   dynamic _dynamic = "Usama"; // dynamic is a dynamic data type and its datatype can be changed
-  print(_dynamic); // Usama
+  print(_dynamic); //? Usama
   _dynamic = 25;
-  print(_dynamic); // 25
+  print(_dynamic); //? 25
   var _var = "Sarwar"; // var is a dynamic data type and now it is a String
-  print(_var); // Sarwar
+  print(_var); //? Sarwar
   //! _var = 25; // var is a var data type and now it can not be an Integer
 
   //* Example
