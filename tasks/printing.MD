@@ -8,4 +8,4 @@ _Replace the highlighted text with your own information._ i.e. `name` can be rep
 - I'm a student at "`school`".
 - List: [`favorite food`, `favorite color`, `favorite animal`]
 - Map: { "name": "`name`", "age": `age`, "city": "`city`", "school": "`school`", "favorite food": "`favorite food`", "favorite color": "`favorite color`", "favorite animal": "`favorite animal`" }
-- Set: [`favPerson1`, `favPerson2`, `favPerson3`]
+- Set: {`favPerson1`, `favPerson2`, `favPerson3`}
