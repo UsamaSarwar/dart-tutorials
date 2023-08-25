@@ -20,7 +20,7 @@ class Person {
   String? gender;
 
   // Constructors
-  // person(this.name, this.age, this.gender); // Unnamed Constructor
+  // Person(this.name, this.age, this.gender); // Unnamed Constructor
   Person(
       {required this.name,
       required this.age,
@@ -41,7 +41,7 @@ void main(List<String> args) {
   // String age = "20";
   // String gender = "Male";
 
-  // person _person = person('Usama', 27, 'Male'); // Unnamed Constructor
+  // Person _person = Person('Usama', 27, 'Male'); // Unnamed Constructor
   Person _person =
       Person(name: 'Usama', age: 27, gender: 'Male'); // Named Constructor
   print('Name: ' + _person.getName);
