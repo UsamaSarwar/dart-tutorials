@@ -6,18 +6,20 @@
 /// 5. Assignment Operators
 /// 6. Conditional Operators
 
+// ignore_for_file: dead_code
+
 void main(List<String> args) {
   /// Arithmetic Operators
   /// +, -, *, /, %, ++, --
 
   // Initializing variables
-  var a = 10;
-  var b = 3;
+  int a = 10;
+  int b = 3;
 
   // Adding two numbers
-  var c = a + b;
-  print('a+b= $c');
-  //print('a+b =' + c.toString());
+  int c = a + b;
+  print('a+b = $c'); // a+b = 13
+  // print('a+b = ' + c.toString()); // a+b = 13
 
   // Subtracting two numbers
   c = a - b;
@@ -88,8 +90,8 @@ void main(List<String> args) {
   /// &&, ||, !
   
   // Initializing variables
-  var p = true;
-  var q = false;
+  bool p = true;
+  bool q = false;
 
   // Checking if p and q are true
   if (p && q) {
