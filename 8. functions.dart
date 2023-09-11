@@ -28,7 +28,8 @@ void main(List<String> args) {
     print("Hi, I am a function with no return type and no input parameters");
   }
 
-  functionWithNoReturnTypeAndNoInputParameters();
+  functionWithNoReturnTypeAndNoInputParameters(); 
+  // Output: Hi, I am a function with no return type and no input parameters
 
   // 2. Function with no return type and input parameters
   void functionWithNoReturnTypeAndInputParameters(String name, int age) {
@@ -36,6 +37,7 @@ void main(List<String> args) {
   }
 
   functionWithNoReturnTypeAndInputParameters("Usama", 27);
+  // Output: Hi, I am Usama and I am 27 years old
 
   // 3. Function with return type and no input parameters
   String functionWithReturnTypeAndNoInputParameters() {
@@ -43,6 +45,7 @@ void main(List<String> args) {
   }
 
   print(functionWithReturnTypeAndNoInputParameters());
+  // Output: Hi, I am a function with return type and no input parameters
 
   // 4. Function with return type and input parameters
   String functionWithReturnTypeAndInputParameters(String name, int age) {
@@ -50,13 +53,14 @@ void main(List<String> args) {
   }
 
   print(functionWithReturnTypeAndInputParameters("Usama", 27));
+  // Output: Hi, I am Usama and I am 27 years old
 
   // Built-in functions
   // 1. print()
   // 2. int.parse()
   // 3. double.parse()
-  // 4. num.parse()
-  // 5. toString()
+  // 4. toString()
+  // and so on...
 
   // Anonymous functions
   // Anonymous functions are functions without a name.
@@ -68,6 +72,7 @@ void main(List<String> args) {
         "Hi, I am an anonymous function with no return type and no input parameters");
   };
   anonymousFunctionWithNoReturnTypeAndNoInputParameters();
+  // Output: Hi, I am an anonymous function with no return type and no input parameters
 
   // 2. Anonymous function with no return type and input parameters
   var anonymousFunctionWithNoReturnTypeAndInputParameters =
@@ -75,6 +80,7 @@ void main(List<String> args) {
     print("Hi, I am $name and I am $age years old");
   };
   anonymousFunctionWithNoReturnTypeAndInputParameters("Usama", 27);
+  // Output: Hi, I am Usama and I am 27 years old
 
   // Lambda functions
   // Lambda functions are anonymous functions with a single expression.
@@ -84,6 +90,15 @@ void main(List<String> args) {
   var lambdaFunctionWithNoReturnTypeAndNoInputParameters = () => print(
       "Hi, I am a lambda function with no return type and no input parameters");
   lambdaFunctionWithNoReturnTypeAndNoInputParameters();
+  // Output: Hi, I am a lambda function with no return type and no input parameters
+
+  // Example of a lambda function
+  // main () => print('Hello World');
+  //? Above code is equivalent to the following code:
+  // void main ()
+  // {
+  //   print('Hello World');
+  // }
 
   /// int sum(int a, int b) {
   ///  return a + b;
@@ -95,6 +110,7 @@ void main(List<String> args) {
   /// A recursive function is a function that calls itself.
 
   /// Recrusive function with no return type and no input parameters
+  // ignore: unused_element
   void recrusiveFunctionWithNoReturnTypeAndNoInputParameters() {
     print(
         "Hi, I am a recrusive function with no return type and no input parameters");
@@ -127,7 +143,6 @@ void main(List<String> args) {
 }
 
 //! void main(List<String> args) => print('Hello World');
-
 
 ///? ========================= E X T R A S ============================= 
 //

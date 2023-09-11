@@ -1,3 +1,17 @@
+/// Data Types in Dart
+/// Primitive Data Types
+/// 1. String
+/// 2. Integer
+/// 3. Double
+/// 4. Boolean
+/// Non-Primitive Data Types
+/// 1. List
+/// 2. Map
+/// 3. Set
+/// Dynamic Data Type
+/// 1. dynamic
+/// 2. var
+
 void main() {
   /// Primitive Data Types
   String _string = "Usama Sarwar";
@@ -8,7 +22,7 @@ void main() {
 
   double _double = 5.8;
   print(_double); //? 5.8
-  
+
   bool _bool = true;
   print(_bool); //? true
 
@@ -45,19 +59,6 @@ void main() {
   print(age); // 26
 }
 
-/// Data Types in Dart
-/// Primitive Data Types
-/// 1. String
-/// 2. Integer
-/// 3. Double
-/// 4. Boolean
-/// Non-Primitive Data Types
-/// 1. List
-/// 2. Map
-/// 3. Set
-/// Dynamic Data Type
-/// 1. dynamic
-/// 2. var
 
 /// Variables in Dart
 /// Rules for naming variables
