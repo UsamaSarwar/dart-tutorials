@@ -1,5 +1,5 @@
 // Using Inheritance in Dart to make a Car class
-
+// Inheritance in Dart is the process of creating a new class from an existing class. The new class is called the derived (or child) class and the existing class is called the base (or parent) class. The derived class inherits all the features from the base class and can have additional features of its own. Inheritance is one of the most important features of Object-Oriented Programming (OOP). It allows us to reuse the code without rewriting it. Inheritance is also known as generalization or specialization.
 class Vehicle {
   void printVehicle() {
     print('This is a Vehicle.');

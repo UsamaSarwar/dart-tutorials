@@ -1,3 +1,6 @@
+// 15.1. Inheritance - Animal
+// Using Inheritance in Dart to make an Animal class
+
 class Animal {
   String name;
   int age;
@@ -28,9 +31,9 @@ class Cat extends Animal {
 
 void main() {
   var animal = Animal('Unknown', 5);
-  animal.makeSound();
+  animal.makeSound(); // The animal makes a sound
 
   var cat = Cat('Kitty', 2, 'brown');
-  cat.makeSound();
-  cat.purr();
+  cat.makeSound(); // The cat meows
+  cat.purr(); // The cat purrs
 }
