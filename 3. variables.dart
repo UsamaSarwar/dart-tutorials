@@ -3,6 +3,8 @@
 /// This file explores variables, data types, and naming conventions in Dart.
 /// Understanding these concepts is crucial for writing effective Dart code.
 
+// ignore_for_file: equal_elements_in_set, unused_local_variable
+
 void main() {
   // --------------------------------------------------------------------------
   // Primitive Data Types

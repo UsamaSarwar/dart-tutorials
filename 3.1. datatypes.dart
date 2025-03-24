@@ -5,6 +5,8 @@
 /// sets, runes, null, and type conversion. It also covers exceptions and
 /// best practices.
 
+// ignore_for_file: equal_elements_in_set, unnecessary_type_check
+
 void main() {
   // --------------------------------------------------------------------------
   // Introduction to Data Types

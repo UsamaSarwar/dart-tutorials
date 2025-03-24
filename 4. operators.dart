@@ -12,7 +12,7 @@
 ///
 /// Each operator type is explained with examples and clear documentation.
 
-// ignore_for_file: dead_code
+// ignore_for_file: dead_code, unnecessary_type_check
 
 void main(List<String> args) {
   // --------------------------------------------------------------------------
